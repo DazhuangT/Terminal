@@ -1,0 +1,18 @@
+To compile this project you can use the following command (nothing special):
+qmake
+make
+./CommandGUI
+//the same commad as what the professor provided
+
+After the mainwindow showed up: 
+0. don't click the button or press enter if there is nothing or just space in the input line edit, you have to do the button action after there are some input
+1. type in the command you want to test, no matter it is a real command or not
+2. then clicked the "run!" button or press enter,
+3. you should be able see the result of this command showed on the right hand side result output area
+4. also you should be able to see the command you used in the history part, this is under the input part on the left
+5. the user hisotry format is: line number command(exit code)
+6. the history list 1 of each used command per line
+7. there is also a exit code output at the very bottom of the main window, it changes based on action
+8. to see the history output, just simply click on the command you want to try in the history section, click the line that the command is on is also fine. (They are actully the same)
+9. then the history output will be show on the result output area, also the exit code on the bottom of the window will also changed to the history exit code of that command
+
